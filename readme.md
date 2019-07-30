@@ -24,22 +24,19 @@ const obj = new ExampleClass();
 
 const res1 = obj.method(1000000); // Takes some time
 const res2 = obj.method(1000000); // Instant execution
-const res3 = obj.method(1000000); // Instant execution
-const res4 = obj.method(9999999); // Takes some time
+const res3 = obj.method(9999999); // Takes some time
 
 console.log(res1, res2);
 console.log(`res1: ${res1}`);
 console.log(`res2: ${res2}`);
 console.log(`res3: ${res3}`);
-console.log(`res4: ${res4}`);
 
 /* Console output
    Execution with value: 1000000
    Execution with value: 9999999
    res1: 1000000
    res2: 1000000
-   res3: 1000000
-   res4: 9999999
+   res3: 9999999
 */
 ```
 You can see that `obj.method()` was called twice but executed only once. Anyway we have the same result in both variables: `res1` and `res2`.
