@@ -20,6 +20,7 @@ class TestClass {
     testWithTwoObjects(obj1: Object, obj2: Object) {
         this.testWithTwoObjectsCallCount++;
     }
+
 }
 
 test('Cache - 1 integer argument', () => {

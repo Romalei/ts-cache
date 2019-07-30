@@ -9,10 +9,10 @@ export function Cache() {
 
         descriptor.value = function () {
             const id = hash({ ...arguments });
-            const inMemory = memory.get(id);
+            const inMemory = memory.has(id);
 
             if (inMemory) {
-                return inMemory;
+                return memory.get(id);
             }
 
             const res = origin.apply(this, arguments);
