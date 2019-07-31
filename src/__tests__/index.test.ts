@@ -1,4 +1,4 @@
-import { Cache } from '../main';
+import { Cache } from '../index';
 
 class TestClass {
 

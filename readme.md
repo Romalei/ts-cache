@@ -3,7 +3,7 @@
 #### A decorator for pure methods which improves performance
 If you have a complicated method which is called many times and takes a long time you can just add `@Cache()` decorator to it.
 ```typescript
-import { Cache } from 'ts-cache';
+import { Cache } from '@zherdev/ts-cache';
 
 class ExampleClass {
 

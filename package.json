@@ -1,8 +1,9 @@
 {
-  "name": "ts-cache",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "@zherdev/ts-cache",
+  "version": "1.0.2",
+  "description": "A typescript decorator for pure methods which improves your performance.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest --config jest.config.json",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
