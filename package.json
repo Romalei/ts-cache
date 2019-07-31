@@ -1,7 +1,7 @@
 {
   "name": "@zherdev/cache",
   "version": "1.0.3",
-  "description": "A typescript decorator for pure methods which improves your performance.",
+  "description": "A decorator for pure methods which improves your performance.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
